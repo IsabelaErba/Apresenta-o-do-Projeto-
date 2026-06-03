@@ -1,0 +1,28 @@
+EventProjectManager/
+│
+├── src/
+│   ├── Main.java
+│   │
+│   ├── model/
+│   │   ├── Usuario.java
+│   │   ├── Projeto.java
+│   │   ├── Atividade.java
+│   │   ├── Equipe.java
+│   │   ├── CategoriaProjeto.java
+│   │   └── StatusProjeto.java
+│   │
+│   ├── repository/
+│   │   ├── UsuarioRepository.java
+│   │   ├── ProjetoRepository.java
+│   │   ├── AtividadeRepository.java
+│   │   └── ConnectionFactory.java
+│   │
+│   ├── service/
+│   │   ├── UsuarioService.java
+│   │   ├── ProjetoService.java
+│   │   └── AtividadeService.java
+│   │
+│   └── view/
+│       └── MenuPrincipal.java
+│
+└── banco.sql
